@@ -108,7 +108,8 @@ function getBarData(chart){
 				show:true,
 				textStyle:{
 					color:'white'
-				}
+				},
+				interval:0
 			}
 		},
 		yAxis:{
