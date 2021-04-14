@@ -35,16 +35,23 @@ function getPieData(url,title,subTitle,chart){
 				x:'center',
 				textStyle:{
 					fontSize:15,
-					fontWeight:'bold'
+					fontWeight:'bold',
+					color:'white'
+				},
+				subtextStyle:{
+					color:'grey'
 				}
 			},
 			// tooltip:{
 			// 	trigger:'item',
 			// 	formatter:"{a} <br/>{b} : {c} ({d}%)"
 			// },
-			label:{
-				show:true
-			},
+			// label:{
+			// 	show:true,
+			// 	textStyle:{
+			// 		color:'red'
+			// 	}
+			// },
 			tooltip : {
 			        trigger: 'item',
 			        formatter: "{a} <br/>{b} : {c} ({d}%)"
@@ -58,7 +65,10 @@ function getPieData(url,title,subTitle,chart){
 					normal:{ 
 					    label:{ 
 						  show: true,
-						  formatter: '{b} : {c} ({d}%)' 
+						  formatter: '{b} : {c} ({d}%)' ,
+						  textStyle:{
+							  color:'white'
+						  }
 						}, 
 						  labelLine :{show:true} 
 					} 
@@ -80,25 +90,44 @@ function getBarData(chart){
 			x:'center',
 			textStyle:{
 				fontSize:15,
-				fontWeight:'bold'
+				fontWeight:'bold',
+				color:'white'
 			}
 		},
 		legend:{
 			data:['人数'],
 			x:'center',
-			y:'bottom'
+			y:'bottom',
+			textStyle:{
+				color:'white'
+			}
 		},
 		xAxis:{
-			data:["美国","英国","日本","印度","澳大利亚","德国","法国","韩国","其他国家","中国澳门","中国台湾","中国香港"]
+			data:["美国","英国","日本","印度","澳大利亚","德国","法国","韩国","其他国家","中国澳门","中国台湾","中国香港"],
+			axisLabel:{
+				show:true,
+				textStyle:{
+					color:'white'
+				}
+			}
 		},
 		yAxis:{
 			// show:true,
 			// data:[66,61,60,60,32,31,31,29,210,6,2,32]
+			axisLabel:{
+				show:true,
+				textStyle:{
+					color:'white'
+				}
+			}
 		},
 		series: [{
 			name:'人数',
 			type:'bar',
-			data:[66,61,60,60,32,31,31,29,210,6,2,32]
+			data:[66,61,60,60,32,31,31,29,210,6,2,32],
+			textStyle:{
+				color:'white'
+			}
 		}]
 	})
 }
