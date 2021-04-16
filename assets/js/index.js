@@ -141,8 +141,8 @@ getPieData('./assets/json/chart3.json','城西科创大走廊企业分布','总�
 getPieData('./assets/json/chart4.json','浙江省上市公司中工作站分布','',echarts.init(document.getElementById('chart4')));
 getPieData('./assets/json/chart5.json','各地市企业博士后工作站招收人数','',echarts.init(document.getElementById('chart5')));
 getPieData('./assets/json/chart6.json','浙江省目前在站博士后年龄结构分布','',echarts.init(document.getElementById('chart6')));
-getPieData('./assets/json/chart6.json','浙江省在站博士后为外籍情况分布','',echarts.init(document.getElementById('chart7')));
-getPieData('./assets/json/chart6.json','男女比例','',echarts.init(document.getElementById('chart8')));
+getPieData('./assets/json/chart7.json','浙江省在站博士后为外籍情况分布','',echarts.init(document.getElementById('chart7')));
+getPieData('./assets/json/chart8.json','男女比例','',echarts.init(document.getElementById('chart8')));
 getBarData(echarts.init(document.getElementById('chart9')))
 
 
