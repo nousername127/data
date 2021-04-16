@@ -62,11 +62,15 @@ img{
 	margin-left:5% ;
 	margin-right: 3%;
 } */
+#fullpage{
+	margin-top: 0;
+}
 .section{
 	/* background: url(../img/bg3.jpg);
 	background-size: cover; */
 	/* background-color: rgb(0,12,59); */
 	background-color: rgb(0,12,59);
+	margin-top: 0;
 }
 .title{
 	font-family: Arial, sans-serif;
