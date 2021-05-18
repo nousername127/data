@@ -72,6 +72,7 @@ img{
 	/* background-color: rgb(0,12,59); */
 	background-color: rgb(0,12,59);
 	margin-top: 0;
+	
 }
 .title{
 	font-family: Arial, sans-serif;
@@ -128,9 +129,15 @@ img{
 		margin-right: 8%;
 	}
 }
-@media screen and (min-width: 1700px){
+@media screen and (min-width: 2000px){
+	.img_con{
+		width:920px;
+		height:458px;
+	}
+}
+@media screen and (min-width: 1500px){
 	.img_con{
 		width:820px;
-		height:358px;
+		height:328px;
 	}
 }
