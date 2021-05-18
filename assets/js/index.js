@@ -58,7 +58,7 @@ function getPieData(url,title,subTitle,chart){
 			    },
 			series: [{
 				title:'title',
-				radius:'70%',
+				radius:'65%',
 				type:"pie",
 				data:data,
 				itemStyle:{ 
